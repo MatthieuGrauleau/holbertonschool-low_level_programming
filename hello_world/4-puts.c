@@ -3,8 +3,6 @@
 /*
  * main - main funcion
  * 
- * Description: this functions prints a phrase thanks to puts
- *
  * Return: Always returns 0 for success
  */
 
