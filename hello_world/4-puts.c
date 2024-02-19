@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  *	main - main function
  *
  *	Description: This function prints a phrase using puts.
