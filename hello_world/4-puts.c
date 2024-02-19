@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /*
- * main -  principal funcion
+ * main - main funcion
  * 
- * Description : this functions prints a phrase thanks to puts
+ * Description: this functions prints a phrase thanks to puts
  *
- * Return : Always returns 0 for succes
+ * Return: Always returns 0 for success
  */
 
 int main(void)
