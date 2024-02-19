@@ -8,6 +8,6 @@ int main(void)
 
 
 /*
- * using  puts
+ * main principal funcion
  */
 
