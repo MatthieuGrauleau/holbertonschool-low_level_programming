@@ -2,7 +2,7 @@
 
 /*
  *	main - main function
- * 
+ *
  *	Return: Always returns 0 for success
  */
 
