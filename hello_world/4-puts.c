@@ -8,6 +8,6 @@ int main(void)
 
 
 /*
- * Fonction qui permet d'afficher un message spcifique et un retour a la ligne automatique grce a puts
+ * using  puts
  */
 
