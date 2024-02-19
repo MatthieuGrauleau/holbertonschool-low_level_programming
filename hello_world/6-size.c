@@ -3,7 +3,7 @@
 /**
  * main - function main
  *
- * Description:  prints the size of various types on the computer it is compiled and run on
+ * Description:  prints the size of various types on the computer
  *
  * Return: Always return 0 for success.
  */
