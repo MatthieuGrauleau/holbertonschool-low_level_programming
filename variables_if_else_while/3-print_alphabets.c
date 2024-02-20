@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: a program that prints the alphabet in lowercase, and then in uppercase
+ * Description: prints the alphabet in lowercase, and then in uppercase
  *
  * Return: 0 for success.
  */
@@ -22,9 +22,9 @@ int main(void)
 
 	while (alphabet <= 'Z')
 	{
-                putchar(alphabet);
-                alphabet++;
-        }
+		putchar(alphabet);
+		alphabet++;
+	}
 	putchar('\n');
 	return (0);
 }
