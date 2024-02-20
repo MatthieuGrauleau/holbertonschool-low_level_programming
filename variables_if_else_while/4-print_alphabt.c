@@ -10,30 +10,13 @@
 
 int main (void)
 {
-	char alphabet = 'a';
+	char letter;
 
-	while (alphabet <= 'd')
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(alphabet);
-		alphabet++;
+	if (letter != 'e' && letter != 'q')
+	putchar(letter);
 	}
-
-	alphabet = 'f';
-
-	while (alphabet <= 'p')
-	{
-		putchar(alphabet);
-		alphabet++;
-	}
-
-	alphabet = 'r';
-
-	while (alphabet <= 'z')
-	{
-		putchar(alphabet);
-		alphabet++;
-	}
-
 	putchar('\n');
 	return (0);
 }
