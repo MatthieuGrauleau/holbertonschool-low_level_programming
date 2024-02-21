@@ -19,7 +19,7 @@ void times_table(void)
 		for (i = 0; i <= 9; i++)
 		{
 			result = n * i;
-			return (result);
+			 _putchar(result + '0');
 		}
 	}
 }	
