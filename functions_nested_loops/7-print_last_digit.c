@@ -17,5 +17,5 @@ int print_last_digit(int n)
 	i = n %  10;
 
 	return (i);
-	return (0);
+	return (i);
 }
