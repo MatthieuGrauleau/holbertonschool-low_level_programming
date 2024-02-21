@@ -21,17 +21,17 @@ void times_table(void)
 		for (i = 0; i <= 9; i++)
 		{
 			result = n * i;
-			if ( result > 9)
+			if (result > 9)
 			{
 				a = result % 10;
 				b = (result - a) / 10;
 				_putchar(44);
-                                _putchar(32);
+				_putchar(32);
 				_putchar(b + '0');
 				_putchar(a + '0');
 			} else
 			{
-				if (r != 0)
+				if (i != 0)
 				{
 					_putchar(44);
 					_putchar(32);
@@ -41,4 +41,4 @@ void times_table(void)
 		}
 		 _putchar('\n');
 	}
-}	
+}
