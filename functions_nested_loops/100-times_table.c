@@ -20,8 +20,7 @@ void print_times_table(int n)
 	b = (result - a) / 10;
 	_putchar(44);
 	_putchar(32);
-	_putchar(b + '0');
-	_putchar(a + '0');
+	_putchar(result + '0');
 	  _putchar(',');
 	  _putchar(' ');
          }
