@@ -15,11 +15,17 @@ int main (void)
 
 	for (ten = 0; ten <= 8; ten++)
 	{
-		for (unit = 1; unit <= 9; unit++)
+		for (unit = ten + 1; unit <= 9; unit++)
 		{
 			putchar(ten + '0');
 			putchar(unit + '0');
+			if(ten < 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
