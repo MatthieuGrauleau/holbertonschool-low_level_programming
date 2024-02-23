@@ -22,11 +22,9 @@ void print_times_table(int n)
 	_putchar(32);
 	_putchar(b + '0');
 	_putchar(a + '0');
-	  _putchar(",");
-	  _putchar(" ");
-            }
-        }
-        printf("\n");
-    }
-    return (0);
+	  _putchar(',');
+	  _putchar(' ');
+         }
+     }
+    _putchar('\n');
 }
