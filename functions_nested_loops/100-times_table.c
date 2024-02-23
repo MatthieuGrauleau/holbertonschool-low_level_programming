@@ -8,12 +8,12 @@
  * Return: 0 for success.
  */
 
-int times_table(num)
+void print_times_table(int n)
 {
     int i, j, a, b, result;
-    for (i = 0; i < num + 1; i++)
+    for (i = 0; i < n + 1; i++)
     {
-        for (j = 0; j < num + 1; j++)
+        for (j = 0; j < n + 1; j++)
         {
           result = i * j;
 	  a = result % 10;
