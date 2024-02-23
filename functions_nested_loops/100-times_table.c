@@ -37,6 +37,7 @@ int rest;
 				_putchar(t + '0');
                         	_putchar(a + '0');
                         	_putchar(b + '0');
+			}
 			if (result > 9)
 			{
 			b = result % 10;
