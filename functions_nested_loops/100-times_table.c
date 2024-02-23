@@ -27,8 +27,8 @@ int rest;
 			result = c * r;
 			if (result > 99)
 			{
-				t = result / 100
-				rest = result % 100
+				t = result / 100;
+				rest = result % 100;
 				b = rest % 10;
                         	a = rest  / 10;
 				_putchar(44);
