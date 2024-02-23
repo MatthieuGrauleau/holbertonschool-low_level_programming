@@ -8,7 +8,7 @@
  * Return: 0 for success.
  */
 
-int main (void)
+int main(void)
 {
 	int ten;
 	int unit;
@@ -19,7 +19,7 @@ int main (void)
 		{
 			putchar(ten + '0');
 			putchar(unit + '0');
-			if(ten < 8)
+			if (ten < 8)
 			{
 				putchar(',');
 				putchar(' ');
