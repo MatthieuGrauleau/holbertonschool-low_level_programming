@@ -10,13 +10,22 @@
 
 void print_times_table(int n)
 {
-    int i, j, result;
+    int i, j, result, a, b;
     for (i = 0; i < n + 1; i++)
     {
         for (j = 0; j < n + 1; j++)
         {
           result = i * j;
 	  _putchar(result + '0');
+	  if (result > 9)
+			{
+				a = result % 10;
+				b = (result - a) / 10;
+				_putchar(44);
+				_putchar(32);
+				_putchar(b + '0');
+				_putchar(a + '0');
+			}
 	  if (j < n)
 	  {
 		 _putchar(',');
