@@ -8,7 +8,7 @@
  * Return: 0 for success.
  */
 
-int maid(void)
+int main(void)
 {
 	int first, second;
 
