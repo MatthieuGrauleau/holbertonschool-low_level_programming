@@ -18,7 +18,7 @@ int b;
 int t;
 int rest;
 
-	if (n < 15 || n > 0)8
+	if (n < 15 || n > 0)
 	{
 	for (c = 0; c <= n; c++)
 	{
