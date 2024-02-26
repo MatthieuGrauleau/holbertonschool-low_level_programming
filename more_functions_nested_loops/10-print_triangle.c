@@ -11,12 +11,17 @@
 void print_triangle(int size)
 {
 	int count;
+	int space;
 
 	if (size > 0)
 	{
 		for (count = 0; count < size; count++)
 		{
-			_putchar('#');
+			for (space = 0; space < count; space++)
+			{
+				_p6utchar('#');
+			}
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
