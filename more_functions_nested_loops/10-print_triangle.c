@@ -3,6 +3,8 @@
 /**
  * print_triangle - entry point
  *
+ * @size: taille
+ *
  * Descrition: prints a triangle, followed by a new line
  *
  * Return: 0 for success.
