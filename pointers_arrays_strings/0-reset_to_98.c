@@ -5,7 +5,7 @@
  *
  * @n: value
  *
- * @Description: takes a pointer
+ * Description: takes a pointer
  *
  * Return: 0 for success.
  */
