@@ -3,9 +3,7 @@
 /**
  * puts_half - entry point
  *
- * @str
- *
- * Description: prints half of a string
+ * @str: string
  *
  * Return: 0 for success.
  */
