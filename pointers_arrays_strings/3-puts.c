@@ -14,11 +14,10 @@ void _puts(char *str)
 {
 	int index;
 
-	index = 0;
-	while (str[index] != '\0')
+	for (index = 0; str[index] != '\0'; index++)
 	{
 		_putchar(*str);
-		index++;
+		str++;
 	}
 	_putchar('\n');
 }
