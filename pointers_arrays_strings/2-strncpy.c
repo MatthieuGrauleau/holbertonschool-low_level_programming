@@ -6,6 +6,8 @@
  * @dest: destination
  * @src: source
  * @n: number
+ *
+ * Return: print the string
  */
 
 char *_strncpy(char *dest, char *src, int n)
