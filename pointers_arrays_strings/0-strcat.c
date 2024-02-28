@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 {
 	int index = 0;
 	int destlen = 0;
-	
+
 	while (dest[index++])
 	{
 		destlen++;
@@ -21,5 +21,5 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[destlen++] = src[index];
 	}
- 	return (dest);
+	return (dest);
 }
