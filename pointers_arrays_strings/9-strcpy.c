@@ -20,6 +20,6 @@ char *_strcpy(char *dest, char *src)
 		index++;
 	}
 
-	dest += '\0';
+	*dest = '\0';
 	return (finaldest);
 }
