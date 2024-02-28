@@ -29,7 +29,7 @@ char *_strncat(char *dest, char *src, int n)
 	totallen = destlen + indexsrc;
 	if (n < totallen)
 	{
-		for (index = 0; src[index] <= src[n - 4]; index++)
+		for (index = 0; src[index] <= src[n - 2]; index++)
 		{
 			dest[destlen++] = src[index];
 		}
