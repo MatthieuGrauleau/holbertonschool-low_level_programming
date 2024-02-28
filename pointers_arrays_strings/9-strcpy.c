@@ -12,6 +12,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int index = 0;
+	char *finaldest = dest;
 
 	while (src[index])
 	{
@@ -19,6 +20,6 @@ char *_strcpy(char *dest, char *src)
 		index++;
 	}
 
-	dest = '\0';
-	return (dest);
+	dest += '\0';
+	return (finaldest);
 }
