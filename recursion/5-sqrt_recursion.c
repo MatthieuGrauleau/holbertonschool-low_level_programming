@@ -1,29 +1,41 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - function that returns the natural square root of a num
+ * _sqrt_recursion_helper - auxiliary funtion found the natual squart of n
  *
  * @n: integrer
- * Return: the natural square root
+ * @i: integrer
+ * Return: the natural square root of n
+ */
+
+int _sqrt_recursion_helper(int n, int i)
+{
+	int result = i * i;
+
+	if (result == n)
+	{
+		return (i);
+	} else if (result > n)
+	{
+		return (-1);
+	}
+	{
+		return (_sqrt_recursion_helper(n, i + 1));
+	}
+}
+
+/**
+ * _sqrt_recursion - function that returns the natural square root of a number
+ * @n: integer
+ *
+ * Return: the natural square root of n
  */
 
 int _sqrt_recursion(int n)
 {
-	int i = 1;
-	int result = 1;
-
 	if (n == 0 || n == 1)
 	{
 		return (n);
 	}
-	while (result <= n)
-	{
-		if (result == n)
-		{
-			return (i);
-		}
-		i++;
-		result = i * i;
-	}
-	return (-1);
+	return (_sqrt_recursion_helper(n, 1));
 }
