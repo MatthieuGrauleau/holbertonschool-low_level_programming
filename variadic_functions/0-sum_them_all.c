@@ -4,15 +4,15 @@
  * sum_them_all - function that returns the sum of all its parameters
  *
  * @n: integrer
+ * @...: variables parameters;
  *
  * Return: return 0 when n == 0
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int i;
 	va_list ap;
-	unsigned int sum = 0;
+	unsigned int sum = 0, i;
 
 	if (n == 0)
 	{
