@@ -37,8 +37,7 @@ int main(int argc, char *argv[])
  */
 int open_file(const char *filename, int flags)
 {
-	int fd = open(filename, flags, S_IRUSR | S_IWUSR | S_IRGRP
-	| S_IWGRP | S_IROTH);
+	int fd = open(filename, flags, 0664;
 
 	if (fd == -1)
 	{
