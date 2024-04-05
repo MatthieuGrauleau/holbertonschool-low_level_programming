@@ -20,7 +20,7 @@ int open_target_file(const char *target)
 	| S_IWUSR | S_IRGRP | S_IROTH);
 	if (target_fd == -1)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", target);
-		return (target_fd);
+	return (target_fd);
 }
 
 /**
